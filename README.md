@@ -21,7 +21,7 @@ It is slower than RadixSort at the cost of having constant space complexity.
 
 How to compile to test : `gcc -o TowerSortTest TowerSortTest.c -lm`
 
-Execute : ./TowerSortTest <n> <range> <print?>
+Execute : `./TowerSortTest <n> <range> <print?>`
 This will test the sorting algorithm with a set `n` values randomly chosen in-between `-range` and `+range` (exclusive).
 Put `1` as a third parameter to print the list before and after sorting.
 
